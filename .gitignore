@@ -1,0 +1,40 @@
+# Third-party tools (install via installer)
+tools/**
+!tools/.gitkeep
+
+# Scan output & logs
+results/**
+!results/.gitkeep
+logs/**
+!logs/.gitkeep
+
+# Temp / OS
+*.tmp
+*.log
+*~
+.DS_Store
+Thumbs.db
+
+# Secrets / sessions
+*cookie*
+*cookies*
+.env
+.env.*
+*.pem
+*.key
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Backups
+*.bak
+*.old
